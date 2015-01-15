@@ -1,0 +1,8 @@
+<h1>Le Meilleur Coin</h1>
+<h2>Nous avons <%= @offers.count %> offres</h2>
+
+
+Liste : <br>
+<% @offers.each do |offer| %>
+	<%= offer.title %>
+<% end %>
